@@ -1,0 +1,428 @@
+/************************************************
+/* RESTE MEYER
+************************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+
+blockquote, q {
+    quotes: "" "";
+}
+
+/************************************************
+/* FIN RESTE MEYER
+************************************************/
+body {
+    margin: 50px auto;
+    min-width: 350px;
+    max-width: 950px;
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #252525;
+    background-image: url("../img/fond.png");
+    background-repeat: repeat;
+    color: white;
+}
+/*  HEADER */
+hgroup{
+    height: 75px;
+    width: 450px;
+}
+h1 a {
+    font-family: 'Krona One', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    text-decoration: none;
+}
+
+hgroup h2 {
+    font-family: 'Raleway Dots', cursive;
+    color: white;
+    margin: 0.5em 0 0 3.5em;
+}
+
+
+/*  CONTENT */
+#content{
+    border-radius: 5px 5px 5px 5px;
+}
+
+#content #left {
+    float: left;
+    width: 60%;
+    margin-right: 5%;
+}
+
+#content #right{
+    width: 30%;
+    display: inline-block;
+}
+
+p {
+    color: black;
+}
+
+nav{
+    position: relative;
+    height: 39px;
+    margin-left: 0.25em;
+}
+
+nav li{
+    width: 125px;
+    height: 25px;
+    float: left;
+    margin-right: 2em;
+    text-align: center;
+    border-radius: 2px;
+    padding: 1em 1em 0.5em 1em;
+
+}
+
+nav a{
+    color: #f5f5f5;
+    text-decoration: none;
+    text-shadow:2px 2px #1C1A1B;
+    font-family: 'Krona One', sans-serif;
+    font-weight: lighter;
+    font-size: 1.25em;
+}
+
+nav a:active{
+    text-shadow: none;
+}
+
+section#content{
+    margin-bottom: 2em;
+}
+
+section h1, div h1{
+    font-family: 'Krona One', sans-serif;
+    font-size: 2em;
+    padding: 1em 0 0.5em 1.5em;
+}
+
+article p{
+    text-align: justify;
+    margin: 0 1em 0 1em;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    font-weight: lighter;
+    line-height: 1.25em;
+}
+
+li p{
+    margin: 0;
+}
+
+#content h2{
+    font-size: 1.5em;
+    margin: 1em 0 0.25em 1em;
+    text-align: right;
+    font-family: 'Raleway Dots', cursive;
+
+}
+
+/* FOOTER */
+footer {
+    width: 950px;
+}
+
+#copy {
+    float: left;
+    color: #f5f5f5;
+    font-size: 1em;
+    margin-right: 5em;
+    font-weight: lighter;
+}
+
+#social {
+    float: right;
+    margin-right: 2.5em;
+}
+
+#social li {
+    float: left;
+    margin-right: 1em;
+    width: 16px;
+    height: 16px;
+}
+
+#social li#twitter {
+    background-image: url("../img/favicon-twitter.png");
+}
+
+#social li#google {
+    background-image: url("../img/favicon-google.png");
+}
+
+#social li#linkedin {
+    background-image: url("../img/favicon-linkedin.png");
+}
+
+#social li a {
+    display: block;
+    width: 16px;
+    height: 16px;
+    text-indent: -9999px;
+}
+
+/*  INDEX  */
+
+#home h1 a{
+    color: #f5f5f5;
+}
+#home section#contentHome {
+    width: 950px;
+    height: 500px;
+    position: relative;
+    margin-top: 2em;
+}
+
+#home nav p {
+    width: 20%;
+    height: 450px;
+    font-weight: lighter;
+    text-align: center;
+    float: left;
+    font-size: 1em;
+}
+
+#home nav a {
+    width: 100%;
+    height: 50%;
+    display: block;
+    padding-top: 100%;
+    font-size: 1.5em;
+    font-family: 'Krona One', sans-serif;
+    color: #f5f5f5;
+}
+
+p#about {
+    background-image: url('../img/paperY.jpg');
+    margin-right: 5%;
+}
+
+p#blog {
+    background-image: url('../img/paperB.jpg');
+    margin-right: 5%;
+}
+
+p#portfolio {
+    background-image: url('../img/paperG.jpg');
+    margin-right: 5%;
+}
+
+p#contact {
+    background-image: url('../img/paperR.jpg');
+}
+
+p#about:hover, p#blog:hover, p#portfolio:hover, p#contact:hover{
+    opacity: 0.7;
+    filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+
+/* ABOUT */
+
+#about{
+    background-image: url('../img/paperY.jpg');
+}
+
+nav li#aboutNav{
+    background-image: url("../img/paperY.jpg") ;
+}
+
+#content #right img{
+    float:right;
+}
+
+#about nav{
+   margin-left: 0;
+}
+
+#about section#content{
+    border-top-left-radius: 0;
+    display: inline-block;
+}
+
+.skills{
+    float:left;
+    width: 250px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.skills+p{
+    text-align: right;
+}
+
+/* BLOG */
+
+#blog {
+    background-image: url('../img/paperG.jpg');
+}
+
+nav li#blogNav{
+    background-image: url("../img/paperG.jpg") ;
+}
+
+.read{
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 1em;
+}
+
+#blog article#right{
+    height: 550px;
+}
+
+#blog #left li{
+    list-style: disc ;
+    color: black;
+    margin-left: 2em;
+}
+
+#right ul{
+    text-align: right;
+}
+
+#right li{
+    line-height: 1.5em;
+    font-weight: lighter;
+}
+
+.title{
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+li p+p{
+    font-style: italic;
+}
+
+
+/* PORTEFOLIO */
+body#portfolio{
+    background-image: url('../img/paperB.jpg');
+}
+
+nav li#portfolioNav{
+    background-image: url("../img/paperB.jpg") ;
+}
+
+div#gallery ul{
+    display: inline-block;
+    width: 100%;
+}
+
+div#gallery li{
+    float: left;
+    margin: 1em;
+    width: 200px
+}
+
+#gallery li p{
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: lighter;
+    color:#f5f5f5;
+    font-size: 0.75em;
+    font-style: italic;
+    margin: 0.25em;
+}
+
+#gallery>p{
+    font-family: 'Raleway Dots', cursive;
+    font-size: 1.25em;
+    color: #f5f5f5;
+    padding: 1.5em;
+}
+
+/*  CONTACT */
+#contact{
+    background-image: url('../img/paperR.jpg');
+    border-radius: 5px 5px 5px;
+    margin-bottom: 2em;
+}
+
+nav li#contactNav{
+    background-image: url("../img/paperR.jpg") ;
+}
+
+#contact #left{
+   width: 35%;
+    margin-right: 10%;
+}
+
+#contact #right{
+    width: 50%;
+}
+
+#left p{
+    line-height: 2em;
+}
+strong{
+    font-weight: bold;
+}
+
+#contact p a{
+    color: black;
+}
+
+form{
+    margin-bottom: 1em;
+}
+
+input{
+    margin: 0.5em 0 1em 0;
+}
+
+label{
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+    font-weight: bold;
+}
